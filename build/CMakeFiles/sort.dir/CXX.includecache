@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fizz/b_sort_test/bubble_sort.cpp
+
+/home/fizz/b_sort_test/ins_sort.cpp
+
+/home/fizz/b_sort_test/main.cpp
+iostream
+-
+fstream
+-
+stdlib.h
+-
+string.h
+-
+bubble_sort.cpp
+/home/fizz/b_sort_test/bubble_sort.cpp
+sel_sort.cpp
+/home/fizz/b_sort_test/sel_sort.cpp
+ins_sort.cpp
+/home/fizz/b_sort_test/ins_sort.cpp
+
+/home/fizz/b_sort_test/sel_sort.cpp
+
