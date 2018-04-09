@@ -9,6 +9,9 @@ CMakeFiles/sort.dir/main.cpp.o: ../bubble_sort.cpp
 CMakeFiles/sort.dir/main.cpp.o: ../ins_sort.cpp
 CMakeFiles/sort.dir/main.cpp.o: ../main.cpp
 CMakeFiles/sort.dir/main.cpp.o: ../sel_sort.cpp
+CMakeFiles/sort.dir/main.cpp.o: ../shell_sort.cpp
 
 CMakeFiles/sort.dir/sel_sort.cpp.o: ../sel_sort.cpp
+
+CMakeFiles/sort.dir/shell_sort.cpp.o: ../shell_sort.cpp
 

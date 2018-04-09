@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fizz/b_sort_test
+CMAKE_SOURCE_DIR = /home/fizz/sort-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fizz/b_sort_test/build
+CMAKE_BINARY_DIR = /home/fizz/sort-test/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fizz/b_sort_test/build/CMakeFiles /home/fizz/b_sort_test/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fizz/sort-test/build/CMakeFiles /home/fizz/sort-test/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fizz/b_sort_test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fizz/sort-test/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -231,6 +231,33 @@ sel_sort.cpp.s:
 	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/sel_sort.cpp.s
 .PHONY : sel_sort.cpp.s
 
+shell_sort.o: shell_sort.cpp.o
+
+.PHONY : shell_sort.o
+
+# target to build an object file
+shell_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/shell_sort.cpp.o
+.PHONY : shell_sort.cpp.o
+
+shell_sort.i: shell_sort.cpp.i
+
+.PHONY : shell_sort.i
+
+# target to preprocess a source file
+shell_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/shell_sort.cpp.i
+.PHONY : shell_sort.cpp.i
+
+shell_sort.s: shell_sort.cpp.s
+
+.PHONY : shell_sort.s
+
+# target to generate assembly for a file
+shell_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/shell_sort.cpp.s
+.PHONY : shell_sort.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -252,6 +279,9 @@ help:
 	@echo "... sel_sort.o"
 	@echo "... sel_sort.i"
 	@echo "... sel_sort.s"
+	@echo "... shell_sort.o"
+	@echo "... shell_sort.i"
+	@echo "... shell_sort.s"
 .PHONY : help
 
 

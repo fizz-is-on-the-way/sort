@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/fizz/b_sort_test/bubble_sort.cpp" "/home/fizz/b_sort_test/build/CMakeFiles/sort.dir/bubble_sort.cpp.o"
-  "/home/fizz/b_sort_test/ins_sort.cpp" "/home/fizz/b_sort_test/build/CMakeFiles/sort.dir/ins_sort.cpp.o"
-  "/home/fizz/b_sort_test/main.cpp" "/home/fizz/b_sort_test/build/CMakeFiles/sort.dir/main.cpp.o"
-  "/home/fizz/b_sort_test/sel_sort.cpp" "/home/fizz/b_sort_test/build/CMakeFiles/sort.dir/sel_sort.cpp.o"
+  "/home/fizz/sort-test/bubble_sort.cpp" "/home/fizz/sort-test/build/CMakeFiles/sort.dir/bubble_sort.cpp.o"
+  "/home/fizz/sort-test/ins_sort.cpp" "/home/fizz/sort-test/build/CMakeFiles/sort.dir/ins_sort.cpp.o"
+  "/home/fizz/sort-test/main.cpp" "/home/fizz/sort-test/build/CMakeFiles/sort.dir/main.cpp.o"
+  "/home/fizz/sort-test/sel_sort.cpp" "/home/fizz/sort-test/build/CMakeFiles/sort.dir/sel_sort.cpp.o"
+  "/home/fizz/sort-test/shell_sort.cpp" "/home/fizz/sort-test/build/CMakeFiles/sort.dir/shell_sort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

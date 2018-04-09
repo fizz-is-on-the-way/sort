@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/sort.dir/bubble_sort.cpp.o"
   "CMakeFiles/sort.dir/sel_sort.cpp.o"
   "CMakeFiles/sort.dir/ins_sort.cpp.o"
+  "CMakeFiles/sort.dir/shell_sort.cpp.o"
   "sort.pdb"
   "sort"
 )
