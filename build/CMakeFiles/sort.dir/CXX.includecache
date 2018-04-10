@@ -8,7 +8,15 @@
 
 /home/fizz/sort-test/bubble_sort.cpp
 
+/home/fizz/sort-test/bubble_sort.h
+
+/home/fizz/sort-test/heap_sort.cpp
+
+/home/fizz/sort-test/heap_sort.h
+
 /home/fizz/sort-test/ins_sort.cpp
+
+/home/fizz/sort-test/ins_sort.h
 
 /home/fizz/sort-test/main.cpp
 iostream
@@ -19,16 +27,24 @@ stdlib.h
 -
 string.h
 -
-bubble_sort.cpp
-/home/fizz/sort-test/bubble_sort.cpp
-sel_sort.cpp
-/home/fizz/sort-test/sel_sort.cpp
-ins_sort.cpp
-/home/fizz/sort-test/ins_sort.cpp
-shell_sort.cpp
-/home/fizz/sort-test/shell_sort.cpp
+cstring
+-
+bubble_sort.h
+/home/fizz/sort-test/bubble_sort.h
+sel_sort.h
+/home/fizz/sort-test/sel_sort.h
+ins_sort.h
+/home/fizz/sort-test/ins_sort.h
+shell_sort.h
+/home/fizz/sort-test/shell_sort.h
+heap_sort.h
+/home/fizz/sort-test/heap_sort.h
 
 /home/fizz/sort-test/sel_sort.cpp
 
+/home/fizz/sort-test/sel_sort.h
+
 /home/fizz/sort-test/shell_sort.cpp
+
+/home/fizz/sort-test/shell_sort.h
 

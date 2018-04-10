@@ -7,7 +7,7 @@ inline void bswap(int& a, int& b)
 }
 
 
-inline void bubble_sort(int a[], int len)
+void bubble_sort(int a[], int len)
 {
 	int i, j;
 	int flag;

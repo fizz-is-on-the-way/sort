@@ -6,7 +6,7 @@ inline void sswap(int& a, int& b)
 	b = temp;
 }
 
-inline void selection_sort(int a[],int len)
+void selection_sort(int a[],int len)
 {
     int i,j,min;
     

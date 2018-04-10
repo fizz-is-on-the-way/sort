@@ -1,6 +1,6 @@
 
 
-inline void insert_sort(int a[],int len)
+void insert_sort(int a[],int len)
 {
     int i,j;
     for(i=1;i<len;i++)

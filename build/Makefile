@@ -150,6 +150,33 @@ bubble_sort.cpp.s:
 	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/bubble_sort.cpp.s
 .PHONY : bubble_sort.cpp.s
 
+heap_sort.o: heap_sort.cpp.o
+
+.PHONY : heap_sort.o
+
+# target to build an object file
+heap_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/heap_sort.cpp.o
+.PHONY : heap_sort.cpp.o
+
+heap_sort.i: heap_sort.cpp.i
+
+.PHONY : heap_sort.i
+
+# target to preprocess a source file
+heap_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/heap_sort.cpp.i
+.PHONY : heap_sort.cpp.i
+
+heap_sort.s: heap_sort.cpp.s
+
+.PHONY : heap_sort.s
+
+# target to generate assembly for a file
+heap_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/heap_sort.cpp.s
+.PHONY : heap_sort.cpp.s
+
 ins_sort.o: ins_sort.cpp.o
 
 .PHONY : ins_sort.o
@@ -270,6 +297,9 @@ help:
 	@echo "... bubble_sort.o"
 	@echo "... bubble_sort.i"
 	@echo "... bubble_sort.s"
+	@echo "... heap_sort.o"
+	@echo "... heap_sort.i"
+	@echo "... heap_sort.s"
 	@echo "... ins_sort.o"
 	@echo "... ins_sort.i"
 	@echo "... ins_sort.s"

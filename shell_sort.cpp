@@ -1,4 +1,4 @@
-inline void shell_sort(int a[],int len)
+void shell_sort(int a[],int len)
 {
     int i,j;
     int sequence=len;
