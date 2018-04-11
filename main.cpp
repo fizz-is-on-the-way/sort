@@ -8,6 +8,7 @@
 #include "ins_sort.h"
 #include "shell_sort.h"
 #include "heap_sort.h"
+#include "radix_sort.h"
 
 using namespace std;
 
@@ -60,6 +61,8 @@ int main(int argc, char** argv)
             tag=4;
         else if(type=="heap_sort")
             tag=5;
+        else if(type=="radix_sort")
+            tag=6;
         switch(tag){
            case 1:
                bubble_sort(tdata, i);
@@ -80,6 +83,10 @@ int main(int argc, char** argv)
            case 5:
                heap_sort(tdata,i);
                cout<<i<<endl<<"heap_sort:"<<endl;
+               break;
+           case 6:
+               radix_sort(tdata,i);
+               cout<<i<<endl<<"radix_sort:"<<endl;
                break;
            default:
                cerr<<"please input a type of sort!"<<endl;

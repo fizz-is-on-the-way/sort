@@ -11,8 +11,12 @@ CMakeFiles/sort.dir/main.cpp.o: ../bubble_sort.h
 CMakeFiles/sort.dir/main.cpp.o: ../heap_sort.h
 CMakeFiles/sort.dir/main.cpp.o: ../ins_sort.h
 CMakeFiles/sort.dir/main.cpp.o: ../main.cpp
+CMakeFiles/sort.dir/main.cpp.o: ../radix_sort.h
 CMakeFiles/sort.dir/main.cpp.o: ../sel_sort.h
 CMakeFiles/sort.dir/main.cpp.o: ../shell_sort.h
+
+CMakeFiles/sort.dir/radix_sort.cpp.o: ../radix_sort.cpp
+CMakeFiles/sort.dir/radix_sort.cpp.o: ../radix_sort.h
 
 CMakeFiles/sort.dir/sel_sort.cpp.o: ../sel_sort.cpp
 
