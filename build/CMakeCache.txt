@@ -114,7 +114,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=bubble-sort
+CMAKE_PROJECT_NAME:STATIC=sort
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -166,10 +166,10 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-bubble-sort_BINARY_DIR:STATIC=/home/fizz/sort-test/build
+sort_BINARY_DIR:STATIC=/home/fizz/sort-test/build
 
 //Value Computed by CMake
-bubble-sort_SOURCE_DIR:STATIC=/home/fizz/sort-test
+sort_SOURCE_DIR:STATIC=/home/fizz/sort-test
 
 
 ########################

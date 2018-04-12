@@ -67,6 +67,12 @@ string.h
 -
 cstring
 -
+pthread.h
+-
+unistd.h
+-
+time.h
+-
 bubble_sort.h
 /home/fizz/sort-test/bubble_sort.h
 sel_sort.h
