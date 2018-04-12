@@ -204,33 +204,6 @@ ins_sort.cpp.s:
 	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/ins_sort.cpp.s
 .PHONY : ins_sort.cpp.s
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 radix_sort.o: radix_sort.cpp.o
 
 .PHONY : radix_sort.o
@@ -312,6 +285,33 @@ shell_sort.cpp.s:
 	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/shell_sort.cpp.s
 .PHONY : shell_sort.cpp.s
 
+sorter.o: sorter.cpp.o
+
+.PHONY : sorter.o
+
+# target to build an object file
+sorter.cpp.o:
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/sorter.cpp.o
+.PHONY : sorter.cpp.o
+
+sorter.i: sorter.cpp.i
+
+.PHONY : sorter.i
+
+# target to preprocess a source file
+sorter.cpp.i:
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/sorter.cpp.i
+.PHONY : sorter.cpp.i
+
+sorter.s: sorter.cpp.s
+
+.PHONY : sorter.s
+
+# target to generate assembly for a file
+sorter.cpp.s:
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/sorter.cpp.s
+.PHONY : sorter.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -330,9 +330,6 @@ help:
 	@echo "... ins_sort.o"
 	@echo "... ins_sort.i"
 	@echo "... ins_sort.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... radix_sort.o"
 	@echo "... radix_sort.i"
 	@echo "... radix_sort.s"
@@ -342,6 +339,9 @@ help:
 	@echo "... shell_sort.o"
 	@echo "... shell_sort.i"
 	@echo "... shell_sort.s"
+	@echo "... sorter.o"
+	@echo "... sorter.i"
+	@echo "... sorter.s"
 .PHONY : help
 
 

@@ -1,3 +1,5 @@
+#include "bubble_sort.h"
+
 inline void bswap(int& a, int& b)
 {
 	int temp;
@@ -7,7 +9,15 @@ inline void bswap(int& a, int& b)
 }
 
 
-void bubble_sort(int a[], int len)
+bubble_sorter::bubble_sorter(){
+
+}
+
+bubble_sorter::~bubble_sorter(){
+
+}
+
+void bubble_sorter::bubble_sort(int a[], int len)
 {
 	int i, j;
 	int flag;

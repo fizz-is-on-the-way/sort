@@ -1,3 +1,6 @@
+#include "sel_sort.h"
+
+
 inline void sswap(int& a, int& b)
 {
 	int temp;
@@ -6,7 +9,15 @@ inline void sswap(int& a, int& b)
 	b = temp;
 }
 
-void selection_sort(int a[],int len)
+selection_sorter::selection_sorter(){
+
+}
+
+selection_sorter::~selection_sorter(){
+
+}
+
+void selection_sorter::selection_sort(int a[],int len)
 {
     int i,j,min;
     

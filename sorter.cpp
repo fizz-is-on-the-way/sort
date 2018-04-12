@@ -9,8 +9,21 @@
 #include "shell_sort.h"
 #include "heap_sort.h"
 #include "radix_sort.h"
+#include "sorter.h"
 
 using namespace std;
+
+sorter::sorter(){
+
+}
+
+sorter::~sorter(){
+
+}
+
+
+
+
 
 int main(int argc, char** argv)
 {
@@ -28,7 +41,7 @@ int main(int argc, char** argv)
 	 }
     
 
-        char path[100];
+  char path[100];
 	char data[255];
 	int tdata[100];
 	int i = 0;
@@ -46,7 +59,12 @@ int main(int argc, char** argv)
 		cout << tdata[i] << endl;
 		i++;
 	}
-        
+        bubble_sorter bsorter;
+        heap_sorter   hsorter;
+        ins_sorter    isorter;
+        radix_sorter  rsorter;
+        selection_sorter selsorter;
+        shell_sorter  shsorter;
 
         string type=argv[1];
         cout <<type<<endl;
@@ -65,27 +83,27 @@ int main(int argc, char** argv)
             tag=6;
         switch(tag){
            case 1:
-               bubble_sort(tdata, i);
+               bsorter.bubble_sort(tdata, i);
                cout << i << endl << "bubble_sort:" << endl;
                break;
            case 2:
-               insert_sort(tdata, i);
+               isorter.insert_sort(tdata, i);
                cout << i << endl << "insert_sort:" << endl;
                break;
            case 3:
-               selection_sort(tdata, i);
+               selsorter.selection_sort(tdata, i);
                cout << i << endl << "selection_sort:" << endl;
                break;
            case 4:
-               shell_sort(tdata,i);
+               shsorter.shell_sort(tdata,i);
                cout<<i<<endl<<"shell_sort:"<<endl;
                break;
            case 5:
-               heap_sort(tdata,i);
+               hsorter.heap_sort(tdata,i);
                cout<<i<<endl<<"heap_sort:"<<endl;
                break;
            case 6:
-               radix_sort(tdata,i);
+               rsorter.radix_sort(tdata,i);
                cout<<i<<endl<<"radix_sort:"<<endl;
                break;
            default:

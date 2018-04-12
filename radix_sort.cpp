@@ -91,8 +91,16 @@ int scan(int a[], int len)
 	}
 
 
+radix_sorter::radix_sorter(){
 
-void radix_sort(int a[], int len)
+}
+
+radix_sorter::~radix_sorter(){
+
+}
+
+
+void radix_sorter::radix_sort(int a[], int len)
 {
 	int turn;
 

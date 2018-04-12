@@ -1,3 +1,5 @@
+#include "heap_sort.h"
+
 inline void adjust(int a[],int i,int N)
 {
     int child,temp;
@@ -16,7 +18,17 @@ inline void adjust(int a[],int i,int N)
     a[i]=temp;
 }
 
-void heap_sort(int a[],int len)
+heap_sorter::heap_sorter(){
+
+}
+
+heap_sorter::~heap_sorter(){
+
+}
+
+
+
+void heap_sorter::heap_sort(int a[],int len)
 {
     int i,temp;
     

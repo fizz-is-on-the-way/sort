@@ -1,6 +1,8 @@
 #ifndef RADIX_SORT_H_
 #define RADIX_SORT_H_
 
+#include "sorter.h"
+
 class Node
 {
 public:
@@ -26,6 +28,11 @@ void insert(int data);
 
 };
 
-void radix_sort(int a[], int len);
+class radix_sorter:public sorter{
+public:
+radix_sorter();
+~radix_sorter();
 
+void radix_sort(int a[], int len);
+};
 #endif

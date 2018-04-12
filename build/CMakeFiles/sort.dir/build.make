@@ -57,28 +57,28 @@ include CMakeFiles/sort.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/sort.dir/flags.make
 
-CMakeFiles/sort.dir/main.cpp.o: CMakeFiles/sort.dir/flags.make
-CMakeFiles/sort.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fizz/sort-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sort.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sort.dir/main.cpp.o -c /home/fizz/sort-test/main.cpp
+CMakeFiles/sort.dir/sorter.cpp.o: CMakeFiles/sort.dir/flags.make
+CMakeFiles/sort.dir/sorter.cpp.o: ../sorter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fizz/sort-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sort.dir/sorter.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sort.dir/sorter.cpp.o -c /home/fizz/sort-test/sorter.cpp
 
-CMakeFiles/sort.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sort.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fizz/sort-test/main.cpp > CMakeFiles/sort.dir/main.cpp.i
+CMakeFiles/sort.dir/sorter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sort.dir/sorter.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fizz/sort-test/sorter.cpp > CMakeFiles/sort.dir/sorter.cpp.i
 
-CMakeFiles/sort.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sort.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fizz/sort-test/main.cpp -o CMakeFiles/sort.dir/main.cpp.s
+CMakeFiles/sort.dir/sorter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sort.dir/sorter.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fizz/sort-test/sorter.cpp -o CMakeFiles/sort.dir/sorter.cpp.s
 
-CMakeFiles/sort.dir/main.cpp.o.requires:
+CMakeFiles/sort.dir/sorter.cpp.o.requires:
 
-.PHONY : CMakeFiles/sort.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/sort.dir/sorter.cpp.o.requires
 
-CMakeFiles/sort.dir/main.cpp.o.provides: CMakeFiles/sort.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/sort.dir/main.cpp.o.provides
+CMakeFiles/sort.dir/sorter.cpp.o.provides: CMakeFiles/sort.dir/sorter.cpp.o.requires
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/sorter.cpp.o.provides.build
+.PHONY : CMakeFiles/sort.dir/sorter.cpp.o.provides
 
-CMakeFiles/sort.dir/main.cpp.o.provides.build: CMakeFiles/sort.dir/main.cpp.o
+CMakeFiles/sort.dir/sorter.cpp.o.provides.build: CMakeFiles/sort.dir/sorter.cpp.o
 
 
 CMakeFiles/sort.dir/bubble_sort.cpp.o: CMakeFiles/sort.dir/flags.make
@@ -227,7 +227,7 @@ CMakeFiles/sort.dir/radix_sort.cpp.o.provides.build: CMakeFiles/sort.dir/radix_s
 
 # Object files for target sort
 sort_OBJECTS = \
-"CMakeFiles/sort.dir/main.cpp.o" \
+"CMakeFiles/sort.dir/sorter.cpp.o" \
 "CMakeFiles/sort.dir/bubble_sort.cpp.o" \
 "CMakeFiles/sort.dir/sel_sort.cpp.o" \
 "CMakeFiles/sort.dir/ins_sort.cpp.o" \
@@ -238,7 +238,7 @@ sort_OBJECTS = \
 # External object files for target sort
 sort_EXTERNAL_OBJECTS =
 
-sort: CMakeFiles/sort.dir/main.cpp.o
+sort: CMakeFiles/sort.dir/sorter.cpp.o
 sort: CMakeFiles/sort.dir/bubble_sort.cpp.o
 sort: CMakeFiles/sort.dir/sel_sort.cpp.o
 sort: CMakeFiles/sort.dir/ins_sort.cpp.o
@@ -255,7 +255,7 @@ CMakeFiles/sort.dir/build: sort
 
 .PHONY : CMakeFiles/sort.dir/build
 
-CMakeFiles/sort.dir/requires: CMakeFiles/sort.dir/main.cpp.o.requires
+CMakeFiles/sort.dir/requires: CMakeFiles/sort.dir/sorter.cpp.o.requires
 CMakeFiles/sort.dir/requires: CMakeFiles/sort.dir/bubble_sort.cpp.o.requires
 CMakeFiles/sort.dir/requires: CMakeFiles/sort.dir/sel_sort.cpp.o.requires
 CMakeFiles/sort.dir/requires: CMakeFiles/sort.dir/ins_sort.cpp.o.requires

@@ -1,6 +1,15 @@
 
+#include "ins_sort.h"
 
-void insert_sort(int a[],int len)
+ins_sorter::ins_sorter(){
+
+}
+
+ins_sorter::~ins_sorter(){
+
+}
+
+void ins_sorter::insert_sort(int a[],int len)
 {
     int i,j;
     for(i=1;i<len;i++)

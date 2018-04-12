@@ -1,4 +1,15 @@
-void shell_sort(int a[],int len)
+#include "shell_sort.h"
+
+
+shell_sorter::shell_sorter(){
+
+}
+
+shell_sorter::~shell_sorter(){
+
+}
+
+void shell_sorter::shell_sort(int a[],int len)
 {
     int i,j;
     int sequence=len;
